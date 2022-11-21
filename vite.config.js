@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
     build: {
-        outDir: "../build",
+        outDir: "./build",
         minify: true,
         sourcemap: true,
     },
